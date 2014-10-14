@@ -14,11 +14,19 @@
  
 
 body {
-	background:#D7C4C4;
+	background:#d7c4c4;
+	margin: 20px 100px;
 }
 
 h1 {
 	color:#731010;
+	margin:20px 0px;
+	font-size:28px;
+}
+
+h2 {
+	margin:20px 0px;
+	font-size:22px;
 }
 
 p:first-letter {
@@ -26,7 +34,7 @@ p:first-letter {
 }
 
 a {
-	color:#1F1F6D;
+	color:#1f1f6d;
 }
 
 nav a {
@@ -34,21 +42,21 @@ nav a {
 }
 
 a:hover {
-	color:#6F256F;
+	color:#6f256f;
 	text-decoration:none;
 }
 
 .block_contacts {
-	background:#B7B7EF;
+	background:#b7b7ef;
 	font-size:150%;
 }
 
 .block_faq:before {
 	content:"block FAQ";
-	text-align:center;
+	margin-left: 200px;
 }
 
 .block_faq:after {
 	content:"end";
-	text-align:center;
+	margin-left: 200px;
 }
